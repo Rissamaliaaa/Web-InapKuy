@@ -264,17 +264,19 @@ ul, ol {
 -----------------------*/
 
 .header-section.header-normal .menu-item {
+	
 	-webkit-box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 	box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 }
 .top-nav {
-	border-bottom: 1px solid #e5e5e5;
+	background-color: #fd5602;
+	/* border-bottom: 1px solid #e5e5e5; */
 }
 .top-nav .tn-left li {
 	list-style: none;
 	display: inline-block;
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	font-weight: 500;
 	padding: 14px 0 12px;
 	margin-right: 64px;
@@ -286,7 +288,7 @@ ul, ol {
 	top: 0;
 	width: 1px;
 	height: 100%;
-	background: #e5e5e5;
+	/* background: #e5e5e5; */
 	content: "";
 }
 .top-nav .tn-left li:last-child {
@@ -310,7 +312,7 @@ ul, ol {
 .top-nav .tn-right .top-social a {
 	display: inline-block;
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	margin-left: 15px;
 }
 .top-nav .tn-right .bk-btn {
@@ -318,7 +320,6 @@ ul, ol {
 	font-size: 13px;
 	font-weight: 700;
 	padding: 16px 28px 15px;
-	background: #ce4906;
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -383,12 +384,21 @@ ul, ol {
 .menu-item {
 	position: relative;
 	z-index: 9;
+	/* background-color: #fd5602; */
+	
 }
 .menu-item .logo {
-	padding: 25px 0;
+	
+
+	
 }
 .menu-item .logo a {
 	display: inline-block;
+	
+}
+.menu-item .logo img {
+width: 100px;
+height: 85px;
 }
 .menu-item .nav-menu {
 	text-align: right;
