@@ -7,7 +7,7 @@
     <meta name="keywords" content="Sona, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>InapKuy | Blog </title>
+    <title>InapKuy | Blog & Event </title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
@@ -145,67 +145,216 @@
     </header>
     <!-- Header End -->
 
-    <!-- Blog Section Begin -->
-    <section class="blog-section spad">
+    <!-- Blog Details Hero Section Begin -->
+    <section class="blog-details-hero set-bg" data-setbg="img/blog/blog-details/blog-details-hero.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <span>Berita Seputar Hotel</span>
-                        <h2>Blog dan Event Menarik</h2>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="bd-hero-text">
+                        <span>Blog Seputar Destinasi Wisata</span>
+                        <h2>Destinasi Wisata Indonesia Barat</h2>
+                        <ul>
+                            <li class="b-time"><i class="icon_clock_alt"></i> 15 April 2020</li>
+                            <li><i class="icon_profile"></i> Baskara Gendis</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Blog Details Hero End -->
+
+    <!-- Blog Details Section Begin -->
+    <section class="blog-details-section">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Hotel Ternyaman dekat WBL</span>
-                            <h4><a href="./wblblog-details.html">WBL Lamongan Resort</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 15 April 2020</div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="blog-details-text">
+                        <div class="bd-title">
+                            <p>Indonesia adalah surganya wisata dunia. Nggak heran, ada banyak sekali
+                                sutradara Hollywood yang menggunakan Indonesia sebagai salah satu latar
+                                belakang film mereka. Nggak melulu Bali yang memang dikenal sebagai wajah
+                                pariwisata, ada beberapa tempat di Indonesia yang sukses dijadikan lokasi
+                                syuting film Hollywood. Mulai dari candi bersejarah hingga sebuah pasar
+                                tradisional, lho. Tentu saja, berkat Indonesia, beberapa film Hollywood
+                                ini pun meraih sukses di Box Office. Bintang-bintang yang ditampilkan pun
+                                terbilang berkelas dunia. Nah, kira-kira apa saja sih tempat wisata di
+                                Indonesia yang sukses jadi lokasi syuting film Hollywood? Inapkuy punya daftarnya, nih.
+                            </p>
+                            <p>Terletak di Papua, Gunung Jayawijaya menjadi daya pikat bagi pendaki yang ingin
+                                menaklukannya. Namun sayang,
+                                tak hanya terkenal dengan fenomena uniknya, Gunung Jayawijaya juga dikenal sebagai
+                                gunung
+                                yang berbahaya bagi pendaki. Terlepas dari medannya yang berbahaya, Gunung Jayawijaya
+                                juga
+                                memiliki fakta menarik lainnya. Apa saja?</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Hotel Terdekat Daerah Bromo</span>
-                            <h4><a href="./bromoblog-details.html">Bromo Hotel</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 15 April 2020</div>
+                        <div class="bd-pic">
+                            <div class="bp-item">
+                                <img src="img/blog/blog-details/blog-3.jpg" alt="">
+                            </div>
+                            <div class="bp-item">
+                                <img src="img/blog/blog-details/jaya3.jpg" alt="">
+                            </div>
+                            <div class="bp-item">
+                                <img src="img/blog/blog-details/jaya2.jpg" alt="">
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Hotel Terbaik di Papua</span>
-                            <h4><a href="./papuablog-details.html">Jaya Wijaya Hotel</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 21 April 2020</div>
+                        <div class="bd-more-text">
+                            <div class="bm-item">
+                                <h4>Secercah Surga Indonesia Bagian Barat</h4>
+                                <p> Bila wisatawan umum mengenal Papua dengan Raja Ampat, maka para pendaki
+                                    lebih mengenalnya lewat gunung Jayawijaya. Dengan statusnya sebagai gunung tertinggi
+                                    di
+                                    Indonesia, hampir semua pendaki memimpikan menginjakan kakinya di puncak gunung
+                                    tersebut.
+                                    Namun, sebelum melakukan pendakian di gunung Jayawijaya, ada baiknya kamu mengetahui
+                                    terlebih dahulu tentang 11 fakta gunung Jayawijaya yang sudah kami siapkan di bawah
+                                    ini,
+                                    sebagai berikut.
+                                </p>
+                            </div>
+                            <div class="bm-item">
+                                <h4>Beberapa Fakta Gunung Tertinggi di Indonesia ini.</h4>
+                                <p>1. Selain Jayawijaya, Gunung Ini Memiliki 2 Nama ( Cartenz Pyramid & Jan Cartenz )
+                                </p>
+                                <p>2. Heinrich Harrer Merupakan Pendaki Pertama yang Mampu Mencapai Puncaknya</p>
+                                <p>3. Selain Menjadi Gunung Tertinggi di Indonesia, Cartenz Juga Merupakan Gunung
+                                    Tertinggi di Benua Australia</p>
+                                <p>4. Statusnya Sebagai Anggota Seven Summit Dunia Masih Menjadi Bahan Perdebatan</p>
+                                <p>5. Gunung Jayawijaya Memiliki Jalur Pendakian yang Sangat Sulit Dilalui</p>
+                                <p>6. Cuaca yang Sangat Ekstrim di Puncak Cartenz</p>
+                                <p>7. Keberadaan Salju di Puncak Cartenz Merupakan Perlawanan Terhadap Hukum Alam</p>
+                                <p>8. Selain Salju, Jayawijaya pun Memiliki Glester</p>
+                                <p>9. Pada Tahun 2022, Jayawijaya Akan Kehilangan Lapisan Saljunya</p>
+                                <p>10. Pendakian di Gunung Cartenz Merupakan Pendakian Paling Mahal di Dunia</p>
+                                <p>11. Fosil Hewan-hewan Laut Dapat Kamu Temukan di Puncak Cartenz
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-wide.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Hotel Terindah di Papua</span>
-                            <h4><a href="./rajaampatblog-details.html">Raja Ampat Papua Hotel</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 08 April 2020</div>
+                        <div class="tag-share">
+                            <div class="tags">
+                                <a href="#">Wisata</a>
+                                <a href="#">Pesta</a>
+                                <a href="#">Event</a>
+                            </div>
+                            <div class="social-share">
+                                <span>Share:</span>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-10.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Hotel terbaik di Surabaya</span>
-                            <h4><a href="./ciputrablog-details.html">Ciputra World</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 12 April 2020</div>
+                        <div class="comment-option">
+                            <h4>2 Comments</h4>
+                            <div class="single-comment-item first-comment">
+                                <div class="sc-author">
+                                    <img src="img/blog/blog-details/avatar/avatar-1.jpg" alt="">
+                                </div>
+                                <div class="sc-text">
+                                    <span>27 Agu 2019</span>
+                                    <h5>Cahyono</h5>
+                                    <p>Wah, alig bener dah. Pokoknya lu musti pergi ke tempat ini. Dijamin KAGA SIA SIA.
+                                    </p>
+                                    <a href="#" class="comment-btn">Suka</a>
+                                    <a href="#" class="comment-btn">Balas</a>
+                                </div>
+                            </div>
+                            <div class="single-comment-item reply-comment">
+                                <div class="sc-author">
+                                    <img src="img/blog/blog-details/avatar/avatar-2.jpg" alt="">
+                                </div>
+                                <div class="sc-text">
+                                    <span>27 Agu 2019</span>
+                                    <h5>Arfianto</h5>
+                                    <p>Oh iye, satu hal yang musti kalian bawa pas kesini, sedia jaket yak soalnya
+                                        dingin berrr</p>
+                                    <a href="#" class="comment-btn like-btn">Suka</a>
+                                    <a href="#" class="comment-btn reply-btn">Balas</a>
+                                </div>
+                            </div>
+                            <div class="single-comment-item second-comment ">
+                                <div class="sc-author">
+                                    <img src="img/blog/blog-details/avatar/avatar-3.jpg" alt="">
+                                </div>
+                                <div class="sc-text">
+                                    <span>1 Jan 2020</span>
+                                    <h5>Amalia</h5>
+                                    <p>Wah thx gan infonya. Ntar Corona Ilang, gua mo kesitu! GA SABARR</p>
+                                    <a href="#" class="comment-btn">Suka</a>
+                                    <a href="#" class="comment-btn">Balas</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leave-comment">
+                            <h4>Tinggalkan Komentar</h4>
+                            <form action="#" class="comment-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Nama">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <input type="text" placeholder="Website">
+                                        <textarea placeholder="Pesan"></textarea>
+                                        <button type="submit" class="site-btn">Kirim Pesan</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Blog Section End -->
+    <!-- Blog Details Section End -->
+
+    <!-- Recommend Blog Section Begin -->
+    <section class="recommend-blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Direkomendasikan</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Wisata</span>
+                            <h4><a href="./wblblog-details.html">WBL Lamongan Resort</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15 April 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Wisata</span>
+                            <h4><a href="./blog-details.html">Bromo Hotel</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15 April 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Wisata</span>
+                            <h4><a href="./papuablog-details.html">Jaya Wijaya Hotel</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 21 April 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recommend Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
