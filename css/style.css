@@ -264,12 +264,14 @@ ul, ol {
 -----------------------*/
 
 .header-section.header-normal .menu-item {
-	
 	-webkit-box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 	box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 }
 .top-nav {
 	background-color: #fd5602;
+	position:fixed;
+	width:100%;
+	z-index: 100;
 	/* border-bottom: 1px solid #e5e5e5; */
 }
 .top-nav .tn-left li {
@@ -304,6 +306,15 @@ ul, ol {
 .top-nav .tn-right {
 	text-align: right;
 }
+.top-nav .tn-right li {
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-left: 25px;
+	position: relative;
+}
 .top-nav .tn-right .top-social {
 	display: inline-block;
 	margin-right: 35px;
@@ -323,6 +334,12 @@ ul, ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+.top-nav .tn-right .bk-btn:hover {
+	background-color: #9e3704;
+	font-size:15px;
+	cursor:pointer;
+	visibility: visible;
 }
 .top-nav .tn-right .language-option {
 	display: inline-block;
@@ -384,12 +401,12 @@ ul, ol {
 .menu-item {
 	position: relative;
 	z-index: 9;
+	padding-top:45px;
 	/* background-color: #fd5602; */
 	
 }
 .menu-item .logo {
 	
-
 	
 }
 .menu-item .logo a {
@@ -462,6 +479,8 @@ height: 85px;
 	transition: all 0.3s;
 	-webkit-box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
 	box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
+}
+
 }
 .menu-item .nav-menu .mainmenu li .dropdown li {
 	list-style: none;
@@ -553,7 +572,6 @@ height: 85px;
 	border-radius: 2px;
 	font-size: 16px;
 	color: #19191a;
-	text-transform: uppercase;
 	font-weight: 500;
 	padding-left: 20px;
 }
@@ -613,6 +631,49 @@ height: 85px;
 	width: 100%;
 	height: 46px;
 	margin-top: 30px;
+}
+
+.booking-form form button:hover {
+	background:#ce4906;
+	color:#fff;
+
+}
+.booking-form form .button-facebook button{
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #314786;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	background: #415dae;
+	width: 100%;
+	height: 46px;
+	margin-top: 30px;
+}
+
+.booking-form form .button-facebook button:hover {
+	background: #ffffff;;
+	color:#415dae;
+}
+
+.booking-form form .button-google button{
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #c74434;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	background: #dd4b39;
+	width: 100%;
+	height: 46px;
+	margin-top: 30px;
+}
+
+.booking-form form .button-google button:hover {
+	background: #ffffff;;
+	color:#dd4b39;
 }
 .hero-slider {
 	position: absolute;
@@ -930,7 +991,7 @@ height: 85px;
 	list-style: none;
 }
 .footer-section .footer.text .ft-contact table tr td {
-	color: #aaaab3;
+	/*color: #aaaab3;*/
 	line-height: 32px;
 }
 .footer-section .footer-text .ft-contact h7 {
@@ -996,7 +1057,12 @@ height: 85px;
 	text-align: right;
 }
 /* --------------------------------- Other Pages Styles ----------------------------------- */
-
+/*---------------------
+  Carousel Section
+-----------------------*/
+.carousel-padding {
+	padding-bottom:50px;
+}
 /*---------------------
   Breadcrumb Section
 -----------------------*/
@@ -1242,6 +1308,19 @@ height: 85px;
 	background: #ce4906;
 	color: #ffffff;
 }
+.room-pagination-a-active {
+	font-size: 16px;
+	color: #ffffff;
+	background: #ce4906;
+	border: 1px solid #EFD4B9;
+	border-radius: 2px;
+	padding: 7px 13px 5px;
+	margin-right: 7px;
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 /*-----------------------
   Room Details Section
 -------------------------*/
@@ -1251,6 +1330,8 @@ height: 85px;
 	padding-bottom: 80px;
 }
 .room-details-item {
+	padding-top: 50px;
+	border-top: 1px solid #e5e5e5;
 	margin-bottom: 50px;
 }
 .room-details-item img {
@@ -1538,6 +1619,10 @@ height: 85px;
 	width: 100%;
 	height: 46px;
 	margin-top: 30px;
+}
+.room-booking form button:hover {
+	color: #fff;
+	background:#ce4906;
 }
 /*---------------------
   Blog Section
