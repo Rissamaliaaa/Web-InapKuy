@@ -160,7 +160,7 @@
                 <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                     <div class="booking-form">
                         <h3>Pesan Kamar Sekarang</h3>
-                        <form action="#">
+                        <form action="#" id="booking" name="booking">
                             <div class="check-date">
                                 <label for="date-in">Check In:</label>
                                 <input type="text" class="date-input" id="date-in">
@@ -182,13 +182,26 @@
                             <div class="select-option">
                                 <label for="room">Jumlah Kamar</label>
                                 <select id="room">
-                                    <option value="">1 Kamar</option>
-                                    <option value="">2 Kamar</option>
-                                    <option value="">3 Kamar</option>
-                                    <option value="">>3 Kamar ( Edisi Tour ) </option>
+                                    <option value="1">1 Kamar</option>
+                                    <option value="2">2 Kamar</option>
+                                    <option value="3">3 Kamar</option>
+                                    <option value="4">>3 Kamar ( Edisi Tour ) </option>
                                 </select>
                             </div>
-                            <button type="submit">Cek ketersediaan kamar</button>
+                            <button type="submit" onclick="myFunction()">Cek ketersediaan kamar</button>
+                            <script>
+                                function myFunction(){
+                                    var room=document.getElementById("booking").room.value;
+                                    if (room=="1")
+                                    {
+                                        open("./rooms.html");
+                                        }
+                                    else
+                                        {
+                                            alert("kamar tidak ditemukan")
+                                        }
+                                    }
+                            </script>    
                         </form>
                     </div>
                 </div>
