@@ -187,7 +187,13 @@
                             </div>
                             <div class="col-lg-12">
                                 <textarea placeholder="Masukkan Pesan Anda"></textarea>
-                                <button type="submit">Selesai</button>
+                                <button type="submit" onClick="kirim()">Selesai</button>
+                                <script>
+                                    function kirim() {
+                                        alert('Pesan terkirim!');
+                                        location.reload();
+                                    }
+                                    </script>
                             </div>
                         </div>
                     </form>
