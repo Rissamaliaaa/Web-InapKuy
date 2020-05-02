@@ -670,7 +670,12 @@ height: 85px;
 	height: 46px;
 	margin-top: 30px;
 }
-
+.batas {
+	padding-bottom:25px;
+}
+.anggota-kelompok ul li {
+	list-style-type:none;
+}
 .booking-form form .button-google button:hover {
 	background: #ffffff;;
 	color:#dd4b39;
@@ -2045,6 +2050,9 @@ height: 85px;
 	border: none;
 	padding: 14px 34px 13px;
 	display: inline-block;
+}
+.imap {
+	padding-top:20px;
 }
 .map {
 	height: 470px;
