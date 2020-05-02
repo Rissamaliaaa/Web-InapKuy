@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -57,9 +59,9 @@
                 </li>
                 <li><a href="./blog.html">Info</a>
                     <ul class="dropdown">
-                        <li><a href="./promo.html">Promo</a></li>
-                        <li><a href="./blog.html">Blog & Event </a></li>
-                        <li><a href="./test.html">Testimoni</a></li>
+                        <li><a href="./blog.html">Promo</a></li>
+                        <li><a href="./blog-details.html">Blog & Event </a></li>
+                        <li><a href="./blog.html">Testimoni</a></li>
                     </ul>
                 </li>
                 <li class="active"><a href="./pages.html">Selengkapnya</a>
@@ -91,8 +93,10 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <div class="tn-right">
-                            <a href="#" class="bk-btn">Pesan Sekarang</a>
+                        <ul class="tn-right">
+                            <a href="user-login.html"><li class="bk-btn"><i class="fa fa-user"></i></li></a>
+                            <li><a href="./rooms.html" class="bk-btn">Pesan Sekarang</a></li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -112,20 +116,19 @@
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="./index.html">Beranda</a></li>
+                                    <li class="active"><a href="./index.html">Beranda</a></li>
                                     <li><a href="./rooms.html">Detail Hotel</a>
                                         <ul class="dropdown">
-                                            <li><a href="./room-details.html">Detail Kamar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">Info</a>
+                                    <li><a>Info</a>
                                         <ul class="dropdown">
                                             <li><a href="./promo.html">Promo</a></li>
                                             <li><a href="./blog.html">Blog & Event </a></li>
-                                            <li><a href="./test.html">Testimoni</a></li>
+                                            <li><a href="./test.html">Testimoni </a></li>
                                         </ul>
                                     </li>
-                                    <li class="active"><a href="./contact.html">Selengkapnya</a>
+                                    <li><a>Selengkapnya</a>
                                         <ul class="dropdown">
                                             <li><a href="./contact.html">Kontak Kami</a></li>
                                             <li><a href="./about-us.html">Tentang Kami</a></li>
@@ -134,9 +137,7 @@
                                     </li>
                                 </ul>
                             </nav>
-                            <div class="nav-right search-switch">
-                                <i class="icon_search"></i>
-                            </div>
+                            <!--KOSONG-->
                         </div>
                     </div>
                 </div>
@@ -154,7 +155,6 @@
                     <h2>Kami bukanlah Teman Seperkuliahan</h2>
                     <h2>melainkan sebuah Keluarga</h2>
                 </div>
-                <section class="blog-details-hero set-bg" data-setbg="img/gallery/team.jpg"></section>
             </div>
         </div>
     </div>
@@ -162,41 +162,73 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>
-                    <p>
-                        <h2>Para Founder InapKuy :</h2>
-                    </p>
-                </p>
-                <small>" Kerja Keras dan Tidak Cepat Puas yang membuat Kami Tetap Berinovasi "</small>
-                <p>1. Bastian Arfianto ( UI / UX Designer )</p>
-                <p>2. Risa Amalia ( Exterior & Interior Designer )</p>
-                <p>3. Ega Wahyu Cahyono ( Exterior & Interior Designer )</p>
+                <div class="carousel-tentangkami">
+                    <br>
+                    <h2>Anggota Kelompok</h2>
+                    <br>
+                    <!-- Carousel Section Begin-->
+    <div class="carousel-padding">
+        <div class="container">  
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/foto/1.jpg" alt="Los Angeles" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img src="img/foto/2.jpg" alt="Chicago" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="img/foto/3.jpg" alt="New york" style="width:100%;">
+                </div>
+    
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Sebelumnya</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Selanjutnya</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Section Ends-->
+                <br>
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="anggota-kelompok">
+    <ul>
+        <li><h2>Bastian Arfianto (18050623002)</h2></li>
+        <li><h2>Ega Wahyu Cahyono (18050623014)</h2></li>
+        <li><h2>Risa Amalia (18050623019)</h2></li>
+        <li><h2>D3 Manajemen Informatika 2018</h2></li> 
+    </ul>
+    </div>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>
-                    <p>
-                        <span>Tidak ada yang lebih indah dari melakukan pekerjaan yang anda cintai, berada di sekitar
-                            orang
-                            yang
-                            peduli. Oleh karena itu,
-                            kita selalu memperlakukan para tim kami layaknya sebuah keluarga. Kita bekerja, Kita
-                            tertawa,
-                            Kita
-                            mengobrol, Kita berpesta,
-                            dan Kita selalu tertawa lagi dan lagi. Mendiskusikan sebuah proyek dengan manajer kami dan
-                            disuguhi
-                            sebuah kopi dan rokok?
-                            Kita suka dengan hal itu! Apalagi ditemani sebuah pizza hangat di atas meja kami, Kami
-                            sangat
-                            menyukainya!.</span>
-                    </p>
-
-                </p>
+                <span>Tidak ada yang lebih indah dari melakukan pekerjaan yang anda cintai, berada di sekitar orang yang
+                    peduli. Oleh karena itu,
+                    kita selalu memperlakukan para tim kami layaknya sebuah keluarga. Kita bekerja, Kita tertawa, Kita
+                    mengobrol, Kita berpesta,
+                    dan Kita selalu tertawa lagi dan lagi. Mendiskusikan sebuah proyek dengan manajer kami dan disuguhi
+                    sebuah kopi dan rokok?
+                    Kita suka dengan hal itu! Apalagi ditemani sebuah pizza hangat di atas meja kami, Kami sangat
+                    menyukainya!.</span>
             </div>
         </div>
     </div>
@@ -227,9 +259,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>
-                    <h3>Budaya Kami</h3>
-                </p>
+                <h3>Budaya Kami</h3>
                 <p> Siapa pun yang mengatakan Anda tidak dapat memadukan bisnis dengan kesenangan jelas tidak pernah
                     berkunjung ke
                     InapKuy. Tentu kita kerja sulit, tapi kami pasti suka bersenang-senang. Lingkungan yang menyenangkan
@@ -244,12 +274,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>
-                    <h2>Mengapa Anda Akan Senang Bekerja dengan Kami</h2>
-                </p>
-                <p>
-                    <h4>Murah hati</h4>
-                </p>
+                <div class="batas">
+                <h2>Mengapa Anda Akan Senang Bekerja dengan Kami</h2>
+                <h4>Murah hati</h4>
                 <p>Kerja keras Anda akan dihargai dengan gaji yang sangat kompetitif. </p>
 
                 <h4>Asuransi kesehatan</h4>
@@ -267,10 +294,13 @@
                 <h4>Aktivitas yang menyenangkan</h4>
                 <p>Bulu tangkis, futsal, atau olahraga & permainan lainnya? Kamu putuskan! Kami memiliki semuanya!</p>
             </div>
+            </div>
+            <br>
+            <br>
         </div>
     </div>
+    </div>
     <!-- Isina End -->
-
     <!-- Footer Section Begin -->
     <footer class="footer-section">
         <div class="container">
@@ -284,11 +314,10 @@
                                 </a>
                             </div>
                             <div class="fa-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                <a href="https://id-id.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -312,66 +341,42 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-1 offset-lg-0">
-                        <div class="ft-contact">
-                            <h6> Ikuti Kami </h6>
-                            <ul>
-                                <li>Twitter</li>
-                                <li>Facebook</li>
-                                <li>Instagram</li>
-                                <li>Youtube</li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="col-lg-2 offset-lg-0">
                         <div class="ft-contact">
                             <h6> Metode Pembayaran </h6>
                             <table>
                                 <tr>
-                                    <td>BCA</td>
-                                    <td>BRI</td>
-                                    <td>Permata</td>
+                                    <td><img src="img/bayar1.png"></td>
+                                    <td><img src="img/bayar2.png"></td>
+                                    <td><img src="img/bayar3.png"></td>
                                 </tr>
                                 <tr>
-                                    <td>Indomaret</td>
-                                    <td>Mandiri</td>
-                                    <td>Alfamidi</td>
+                                    <td><img src="img/bayar4.png"></td>
+                                    <td><img src="img/bayar5.png"></td>
+                                    <td><img src="img/bayar6.png"></td>
                                 </tr>
                                 <tr>
-                                    <td>Kredivo</td>
-                                    <td>Mega</td>
-                                    <td>BNI</td>
+                                    <td><img src="img/bayar7.png"></td>
+                                    <td><img src="img/bayar8.png"></td>
+                                    <td><img src="img/bayar9.png"></td>
                                 </tr>
                                 <tr>
-                                    <td>Visa</td>
-                                    <td>CIMB</td>
-                                    <td>Permata</td>
+                                    <td><img src="img/bayar10.png"></td>
+                                    <td><img src="img/bayar11.png"></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
-                    <div class="col-lg-1 offset-lg-0">
+                    <div class="col-lg-2 offset-lg-1">
                         <div class="ft-contact">
                             <h6> Layanan Terverifikasi </h6>
-                            <div class="col-lg-1 offset-lg-0">
-                                <div class="ft-contact">
-                                    <h6>Tinjauan dan Ulasan Oleh</h6>
-                                    <h7>TripAdvisor</h7>
-                                </div>
-                            </div>
+                            <img src="img/certificate1.png" width="80" height="80">
+                        </div>
+                        <div class="ft-contact">
+                            <h6>Tinjauan dan Ulasan Oleh</h6>
+                            <img src="img/testimonial-logo.png" alt="">
                         </div>
                     </div>
-                    <!--         <div class="col-lg-2 offset-lg-0">
-                    <div class="ft-contact">
-                        <h6>Kontak Kami</h6>
-                        <ul>
-                            <li>(+62)81 234567890</li>
-                            <li>info.hotel@inapkuy.com</li>
-                            <li>Sidorukun Gg. Lebar No. 35 Surabaya, Indonesia</li>
-                        </ul>
-                    </div>
-                </div>
-            -->
                 </div>
             </div>
         </div>
@@ -398,6 +403,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
